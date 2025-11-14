@@ -22,7 +22,7 @@ export default function AddArtFloatingButton({href, className, ...props}) {
       href={href}
       className={twJoin(
         `fixed bottom-[8vh] right-[8vw] bg-secondary text-primary p-[1.2rem]
-        rounded-full shadow-lg duration-200 hover:scale-120 border
+        rounded-full shadow-lg duration-200 hover:scale-120 border z-10
         border-t-secondary-ligher border-l-secondary-ligher
         border-b-secondary-darker border-r-secondary-darker`,
         isVisible
