@@ -57,6 +57,11 @@ export default function Hero({className, ...props}) {
           className="object-cover"
         />
       </div>
+      <div
+        className="
+          absolute inset-0 bg-linear-to-t from-[#c0c1a0] to-[#faf6e6]/0 to-10%
+        "
+      ></div>
     </main>
 
     <HeroAnimation
