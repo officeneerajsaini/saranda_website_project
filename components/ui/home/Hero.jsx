@@ -59,7 +59,7 @@ export default function Hero({className, ...props}) {
       </div>
       <div
         className="
-          absolute inset-0 bg-linear-to-t from-[#c0c1a0] to-[#faf6e6]/0 to-10%
+          absolute inset-0 bg-linear-to-t from-[#d1ccb0] to-[#d1ccb0]/0 to-10%
         "
       ></div>
     </main>

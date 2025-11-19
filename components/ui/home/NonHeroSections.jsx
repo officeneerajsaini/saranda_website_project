@@ -33,7 +33,7 @@ export default function NonHeroSections({
       <LoneTreeSlidingAnimation/>
       <div
         className="
-          absolute inset-0 bg-linear-to-b from-[#c0c1a0] via-[#c0c1a0]/80 to-[#faf6e6]/0 h-[10rem]
+          absolute inset-0 bg-linear-to-b from-[#d1ccb0] via-[#d1ccb0]/80 to-[#faf6e6]/0 h-[10rem]
         "
       ></div>
       {children}
