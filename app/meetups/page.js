@@ -22,7 +22,7 @@ export default async function Meetup() {
     {meetupAnnouncements.length > 0 && (
         <>
           <h2 className="text-center text-primary mb-4">
-            Upcoming Meetup
+            Upcoming Meetups
           </h2>
 
           {meetupAnnouncements.map(event => (
