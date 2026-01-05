@@ -1,6 +1,7 @@
 import EventPost from "@/components/ui/events/EventPost";
 import Button from "@/components/ui/Button";
 import { getEventPosts } from "@/lib/cmsdata";
+import MargazhiCard from "@/components/ui/events/margazhi";
 
 
 export default async function EventsPage() {
@@ -12,6 +13,10 @@ export default async function EventsPage() {
     </h2>
 
     {events.map(e => <EventPost event={e} key={e._id}/>)}
+    {/* Margazhi Card at the very top */}
+          <div className="w-9/10 max-w-[120ch] mx-auto flex justify-center">
+            <MargazhiCard />
+          </div>
 
     {(events.length == 0) && (
       <p className="text-center my-8 font-medium">
