@@ -14,14 +14,13 @@ export default async function EventsPage({ params }) {
     <div className="w-9/10 max-w-[120ch] mx-auto mb-8 -mt-4">
       <Button href="/events/current">&lt; Back</Button>
     </div>
+
     {events.map(e => <EventPost event={e} key={e._id}/>)}
 
     {(events.length == 0) && (
       <p className="text-center my-8 font-medium">
         No events for now :(
       </p>
-      
-      
     )}
   </>;
 }
